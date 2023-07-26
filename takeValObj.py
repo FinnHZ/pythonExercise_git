@@ -1,4 +1,4 @@
-parentPath = "C:\\Users\\f.he\\OneDrive - AuCom Group\\Desktop\\sssss.txt"
+parentPath = "C:\\Users\\sssss.txt"
 
 
 

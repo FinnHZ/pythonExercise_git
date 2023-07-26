@@ -1,8 +1,8 @@
 import csv
 
 
-asdsd = "C:\\Users\\f.he\\OneDrive - AuCom Group\\Desktop\\verify comparison report\\rating tables generate verify\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma.csv"
-newfile = "C:\\Users\\f.he\\OneDrive - AuCom Group\\Desktop\\verify comparison report\\rating tables generate verify\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma_trise.csv"
+asdsd = "C:\\Users\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma.csv"
+newfile = "C:\\Users\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma_trise.csv"
 
 newContent = []
 lowestH = 0
