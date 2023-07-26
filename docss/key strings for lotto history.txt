@@ -1,0 +1,7 @@
+<!--IMPORTANT: This widget contains real Adsense code as a sample to show how this widget functions.  Please replace the current Adsense code below with your own code in order to generate revenue from this ad space.-->
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+ id="isPasted"

@@ -1,0 +1,14 @@
+Average3phRmsCurrent,605,2,16
+Average3phRmsVoltage,610,2,16
+CurrentMotorFLC,606,6,16
+MotorThermalModel,607,8,16
+PowerFactor,609,8,16
+Current_P1,611,2,16
+Current_P2,612,2,16
+Current_P3,613,2,16
+Voltage_P1,614,2,16
+Voltage_P2,615,2,16
+Voltage_P3,616,2,16
+Versions_Binary,600,10,16
+Versions_ParamList_major,617,0,8
+Versions_ParamList_minor,617,8,16
