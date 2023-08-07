@@ -6,7 +6,7 @@ aimImG = 'C:\\Users\\testNonStandard.png'
 
 
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\\Users\\f.he\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\\Users\\tesseract.exe"
 
 
 

@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-parentPath = "C:\\Users\\original_backup\\"
+parentPath = "C:\\Users"
 
 
 fileNameList = [

@@ -4,7 +4,7 @@ import cv2  # if we want to recognize spreadsheet image, we need to install it b
 
 
 
-aimImG = 'C:\\Users\\table3.png'
+aimImG = 'C:\\Users'
 
 raw = cv2.imread(aimImG, 1)
 

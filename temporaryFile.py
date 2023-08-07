@@ -1,8 +1,8 @@
 import csv
 
 
-asdsd = "C:\\Users\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma.csv"
-newfile = "C:\\Users\\based on F1D\\Data 8199 2391 2_23_2015 14_55_35_10sec_comma_trise.csv"
+asdsd = "C:\\Users"
+newfile = "C:\\Users"
 
 newContent = []
 lowestH = 0

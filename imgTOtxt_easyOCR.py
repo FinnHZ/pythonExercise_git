@@ -9,7 +9,7 @@ import easyocr
 
 
 
-aimImG = 'C:\\Users\\table3.png'
+aimImG = 'C:\\Users'
 
 
 
