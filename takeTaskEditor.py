@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-parentPath = "C:\\Users"
+parentPath = "C:\\Users\\f.he\OneDrive - AuCom Group\Desktop\src_databaseWork\\scripts\\original_backup\\"
 
 
 fileNameList = [

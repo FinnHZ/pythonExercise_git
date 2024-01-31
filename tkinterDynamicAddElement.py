@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, DISABLED, NORMAL, W, E, N, S
+from tkinter import ttk, DISABLED, NORMAL, W, E, N, S, messagebox
 
 
 
@@ -14,6 +14,10 @@ addBtn.grid(row=0, column=0)
 
 
 def addDynamic(pa):
+    sureAdd = messagebox.askquestion("abc", "Are you sure you want to add a new button?")
+    print(sureAdd, type(sureAdd))
+
+
     newBtn = tk.Button(root, text="New", command=lambda para="nnenneee": newDynamic(para))
     newBtn.grid(row=1, column=0)
 

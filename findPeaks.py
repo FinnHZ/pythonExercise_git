@@ -3,7 +3,8 @@ from scipy.signal import find_peaks
 import csv
 
 
-fp = "C:\\Users"
+# fp = "C:\\Users\\f.he\\OneDrive - AuCom Group\\Desktop\\1111111111111111111111111111111111111111\\2022-6-15 8-20-28 hp34970a_34901adf_10s_Trise_Data.csv"
+fp = "C:\\Users\\f.he\\OneDrive - AuCom Group\\Desktop\\1111111111111111111111111111111111111111\\2022-6-14 10-25-40 hp34970a_34901adf_30s_Trise_Data.csv"
 
 
 file = open(fp, "r")
