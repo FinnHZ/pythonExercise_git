@@ -2,18 +2,17 @@ import copy
 import csv
 import winreg
 
-loan = 600000
+loan = 600000                #setting
+limateYears = 10             #setting
+interest_month = 0.0035      #setting
+rB_percent = 0.05            #setting
+rT_month_beforeFinal = 4600  # set by ourselves(monthly RMB)
 
-limateYears = 10
-interest_month = 0.0035
-rB_percent = 0.05
 
 rB_total = 0 
 rI_total = 0
 months = 0
-
 rT_month = 0
-rT_month_9 = 4600  # set by ourselves(monthly RMB)
 finalReturn = 0
 restLoan = copy.deepcopy(loan)
 
@@ -26,7 +25,7 @@ maxReturn_b_and_i = loan * rB_percent / 12 + loan * interest_month  #4600
 print("maxReturn_b_and_i: {}".format(str(maxReturn_b_and_i)))
 print("Max Interest: {}\n".format(str(loan * interest_month)))
 
-if rT_month_9 >= maxReturn_b_and_i:
+if rT_month_beforeFinal >= maxReturn_b_and_i:
     while rB_total < loan:
         temList = []
         rI_month = restLoan * interest_month
@@ -34,9 +33,11 @@ if rT_month_9 >= maxReturn_b_and_i:
         if months >= (limateYears-1) * 12:
             if finalReturn == 0:
                 finalReturn = copy.deepcopy(restLoan)
-            rB_month = finalReturn / 12
+                rB_month = finalReturn / 12
+        elif restLoan <= rT_month_beforeFinal:  
+            rB_month = copy.deepcopy(restLoan)                
         else:
-            rB_month = rT_month_9 - rI_month
+            rB_month = rT_month_beforeFinal - rI_month
         rB_total = rB_total + rB_month
         restLoan = restLoan - rB_month
         rT_month = rB_month + rI_month
