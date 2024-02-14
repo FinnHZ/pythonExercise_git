@@ -1,4 +1,5 @@
 import nidaqmx   #pip install nidaqmx
+from nidaqmx import DigitalSingleChannelWriter
 
 td = 0
 
@@ -10,4 +11,5 @@ while td > limitTD:
         td = task.read()
         tw = task
         print(td, type(td))
+    
     td = limitTD
